@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: yu yu, ssssss, LIC=UB456-D7HIS-EYWVT-RW92P-ZVPYZ-5L1W9
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+C:\Users\yu\Desktop\实验40 汉字显示实验\USER\HZ.uvprojx
+Project File Date:  01/05/2021
+
+<h2>Output:</h2>
+Build target 'HZ'
+compiling main.c...
+main.c(149): warning:  #167-D: argument of type "uint32_t *" is incompatible with parameter of type "int *"
+        sub(h-1,&currentDataPoint.valueset_heartH,&currentDataPoint.valueset_heartL,&currentDataPoint.valueset_spo2H,&currentDataPoint.valueset_spo2L);                 
+main.c(149): warning:  #167-D: argument of type "uint32_t *" is incompatible with parameter of type "int *"
+        sub(h-1,&currentDataPoint.valueset_heartH,&currentDataPoint.valueset_heartL,&currentDataPoint.valueset_spo2H,&currentDataPoint.valueset_spo2L);                 
+main.c(149): warning:  #167-D: argument of type "uint32_t *" is incompatible with parameter of type "int *"
+        sub(h-1,&currentDataPoint.valueset_heartH,&currentDataPoint.valueset_heartL,&currentDataPoint.valueset_spo2H,&currentDataPoint.valueset_spo2L);                 
+main.c(149): warning:  #167-D: argument of type "uint32_t *" is incompatible with parameter of type "int *"
+        sub(h-1,&currentDataPoint.valueset_heartH,&currentDataPoint.valueset_heartL,&currentDataPoint.valueset_spo2H,&currentDataPoint.valueset_spo2L);                 
+main.c(171): warning:  #167-D: argument of type "uint32_t *" is incompatible with parameter of type "int *"
+                 add(h-1,&currentDataPoint.valueset_heartH,&currentDataPoint.valueset_heartL,&currentDataPoint.valueset_spo2H,&currentDataPoint.valueset_spo2L);
+main.c(171): warning:  #167-D: argument of type "uint32_t *" is incompatible with parameter of type "int *"
+                 add(h-1,&currentDataPoint.valueset_heartH,&currentDataPoint.valueset_heartL,&currentDataPoint.valueset_spo2H,&currentDataPoint.valueset_spo2L);
+main.c(171): warning:  #167-D: argument of type "uint32_t *" is incompatible with parameter of type "int *"
+                 add(h-1,&currentDataPoint.valueset_heartH,&currentDataPoint.valueset_heartL,&currentDataPoint.valueset_spo2H,&currentDataPoint.valueset_spo2L);
+main.c(171): warning:  #167-D: argument of type "uint32_t *" is incompatible with parameter of type "int *"
+                 add(h-1,&currentDataPoint.valueset_heartH,&currentDataPoint.valueset_heartL,&currentDataPoint.valueset_spo2H,&currentDataPoint.valueset_spo2L);
+main.c(213): warning:  #68-D: integer conversion resulted in a change of sign
+                {i=-1;
+main.c(73): warning:  #177-D: variable "buffer_setheartH" was declared but never referenced
+    int buffer_heart[10]={0},buffer_spo2[10]={0},d=0,s=0,buffer_setheartH[10],buffer_setheartL[10],buffer_setspo2L[10],buffer_setspo2H[10]; 
+main.c(73): warning:  #177-D: variable "buffer_setheartL" was declared but never referenced
+    int buffer_heart[10]={0},buffer_spo2[10]={0},d=0,s=0,buffer_setheartH[10],buffer_setheartL[10],buffer_setspo2L[10],buffer_setspo2H[10]; 
+main.c(73): warning:  #177-D: variable "buffer_setspo2L" was declared but never referenced
+    int buffer_heart[10]={0},buffer_spo2[10]={0},d=0,s=0,buffer_setheartH[10],buffer_setheartL[10],buffer_setspo2L[10],buffer_setspo2H[10]; 
+main.c(73): warning:  #177-D: variable "buffer_setspo2H" was declared but never referenced
+    int buffer_heart[10]={0},buffer_spo2[10]={0},d=0,s=0,buffer_setheartH[10],buffer_setheartL[10],buffer_setspo2L[10],buffer_setspo2H[10]; 
+main.c(74): warning:  #177-D: variable "fontcnt" was declared but never referenced
+        u32 fontcnt;              
+main.c(75): warning:  #177-D: variable "z" was declared but never referenced
+        u8 i,h=0,z=0;
+main.c(76): warning:  #177-D: variable "fontx" was declared but never referenced
+        u8 fontx[2];//gbk码
+main.c(79): warning:  #177-D: variable "lcd_id" was declared but never referenced
+    u8 lcd_id[12];                      //存放LCD ID字符串
+main.c(104): warning:  #177-D: label "UPD" was declared but never referenced
+  UPD:    
+main.c: 18 warnings, 0 errors
+linking...
+Program Size: Code=85434 RO-data=8534 RW-data=524 ZI-data=1096524  
+FromELF: creating hex file...
+"..\OBJ\HZ.axf" - 0 Error(s), 18 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\yu\Desktop\实验40 汉字显示实验\USER\RTE
+  D:\keil\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
